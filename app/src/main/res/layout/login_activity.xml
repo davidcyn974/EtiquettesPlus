@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/usernameEText"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:background="#30ffffff"
+        android:hint=" Username :"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:textColorHint="@color/white">
+
+    </EditText>
+    <EditText
+        android:id="@+id/passwordEtext"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:background="#30ffffff"
+        android:hint=" Password :"
+        android:inputType="textPassword"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:textColorHint="@color/white">
+
+    </EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbutton"
+        android:text="Login"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"
+        ></com.google.android.material.button.MaterialButton>
+</LinearLayout>

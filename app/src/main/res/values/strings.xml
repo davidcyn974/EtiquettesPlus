@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EtiquettesPlus</string>
+
+    <string name="choice1">Choice 1 Price XXX</string>
+    <string name="enternameTxt">Enter your Name</string>
+    <string name="enterSurnameTxt">Enter your Surname</string>
+    <string name="enternamePhone">Enter your phone</string>
+    <string name="choice2">Choice 2 Price YYY</string>
+    <string name="confirmbuttonTxt">Confirm your choice</string>
+    <string name="hintmessage">Note that by clicking button you will send a notification to Mr LAI</string>
+
+
+</resources>

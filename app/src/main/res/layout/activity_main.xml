@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginStart="60dp">
+
+    <ImageView
+        android:layout_width="286dp"
+        android:layout_height="59dp"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="341dp"
+        android:layout_height="525dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="229dp"
+                android:layout_height="110dp"
+                android:src="@drawable/abc">
+
+            </ImageView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choice1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choice2" />
+
+            </RadioGroup>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter your amount of etiquetes"
+                android:inputType="number">
+
+            </EditText>
+
+            <ImageView
+                android:layout_width="229dp"
+                android:layout_height="110dp"
+                android:src="@drawable/abc">
+
+            </ImageView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choice1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choice2" />
+
+            </RadioGroup>
+
+            <ImageView
+                android:layout_width="229dp"
+                android:layout_height="110dp"
+                android:src="@drawable/smiley">
+
+            </ImageView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choice1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choice2" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmbuttonTxt"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="546dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintmessage">
+
+    </TextView>
+
+</LinearLayout>

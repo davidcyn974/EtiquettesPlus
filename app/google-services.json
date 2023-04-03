@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "878904368938",
+    "project_id": "etiquettesplus-127e5",
+    "storage_bucket": "etiquettesplus-127e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878904368938:android:208492a987b8cd0371c853",
+        "android_client_info": {
+          "package_name": "wlai.etiquettesplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878904368938-7hb61gdsq9l2kvpch9b0lq6jveci7tur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUlKj4aB3IWketsml5tw9TPGL7IvNgVq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878904368938-7hb61gdsq9l2kvpch9b0lq6jveci7tur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
